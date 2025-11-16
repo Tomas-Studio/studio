@@ -1,75 +1,61 @@
-# Nuxt Minimal Starter
+# Tunji Studio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern portfolio web application built with Nuxt v4, Vue 3, TypeScript, GSAP, and TailwindCSS v4.
 
-## Setup
+## Tech Stack
 
-Make sure to install dependencies:
+- **Framework**: Nuxt v4
+- **UI Library**: Vue 3 (Composition API)
+- **Styling**: TailwindCSS v4
+- **Animation**: GSAP
+- **Type Safety**: TypeScript
+- **Content**: Nuxt Content
+- **Linting**: ESLint
+- **Utilities**: VueUse
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ or 20+
+- pnpm 9.1.2+
+
+### Installation
+
+Install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+### Development
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+### Build
 
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Preview the production build locally:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Generate static site:
+
+```bash
+pnpm generate
+```
+
+## License
+
+MIT

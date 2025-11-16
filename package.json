@@ -1,19 +1,41 @@
 {
-  "name": "nuxt-app",
+  "name": "tunji-studio",
+  "version": "0.1.0",
   "type": "module",
   "private": true,
+  "description": "A portfolio web application built with Nuxt v4, GSAP and TailwindCSS v4",
+  "author": " Tunji Olakunle",
+  "license": "MIT",
+  "packageManager": "pnpm@9.1.2",
+  "keywords": [
+    "nuxt",
+    "vue",
+    "typescript",
+    "tailwindcss",
+    "portfolio"
+  ],
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --cache",
+    "lintfix": "eslint . --cache --fix"
   },
   "dependencies": {
+    "@nuxt/eslint": "1.10.0",
     "@tailwindcss/vite": "^4.1.17",
+    "@vueuse/nuxt": "14.0.0",
+    "eslint": "^9.0.0",
     "nuxt": "^4.1.2",
     "tailwindcss": "^4.1.17",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
