@@ -44,12 +44,6 @@ Build the application for production:
 pnpm build
 ```
 
-Generate static site:
-
-```bash
-pnpm generate
-```
-
 ## License
 
 MIT
