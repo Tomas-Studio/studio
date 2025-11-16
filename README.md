@@ -44,12 +44,6 @@ Build the application for production:
 pnpm build
 ```
 
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
-
 Generate static site:
 
 ```bash
