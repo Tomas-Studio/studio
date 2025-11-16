@@ -1,7 +1,7 @@
 # Tunji Studio
 
 A modern portfolio web application built with Nuxt v4, Vue 3, TypeScript, GSAP, and TailwindCSS v4.
-
+<!-- 
 ## Tech Stack
 
 - **Framework**: Nuxt v4
@@ -11,7 +11,7 @@ A modern portfolio web application built with Nuxt v4, Vue 3, TypeScript, GSAP, 
 - **Type Safety**: TypeScript
 - **Content**: Nuxt Content
 - **Linting**: ESLint
-- **Utilities**: VueUse
+- **Utilities**: VueUse -->
 
 ## Getting Started
 
